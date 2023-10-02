@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="imgs/apple.png">
+    <!--Google-font-link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <!--bootstrap-cdn-link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar sticky-top navbar-expand-md bg-light">
+        <!--WebLogo-->
+        <a href="index.html" class="navbar-brand ms-4"><img src="imgs/apple.png" alt="website-logo" width="50px" height="50px"></a>
+        <!--navbar toggler button-->
+        <button class="navbar-toggler me-4 " data-bs-toggle="collapse" data-bs-target="#myid"><span class="navbar-toggler-icon "></span></button>
+        <!--abar item-->
+        <div class="collapse navbar-collapse ms-4" id="myid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link"><i class="bi bi-house-door-fill" style="color: rgb(27, 22, 22); margin-right: 5px;"></i>Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Our services</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">service 1</a></li>
+                        <li><a class="dropdown-item" href="#">service 2</a></li>
+                        <li><a class="dropdown-item" href="#">service 3</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="navbar-nav ms-auto me-4">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Log in</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Registe
+                        </a>
+                </li>
+            </ul>
+        </div>
+       
+    </nav>
+    <!--Carouse-->
+    <div class="carousel slide carousel-fade" id="carousel-id">
+        <!--carousel indecators-->
+        <ol class="carousel-indicators" style="list-style-type: none;">
+            <li data-bs-target="#carousel-id" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carousel-id" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carousel-id" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="imgs/boooo.jpg" alt="first-slide" width="100%" height="400px">
+                <div class="carousel-caption">
+                    <h2>YooYoo</h2>
+                    <p>IDK whats this</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="imgs/☆.jfif" alt="first-slide" width="100%" height="400px">
+                <div class="carousel-caption">
+                    <h2>HIIHi</h2>
+                    <p>IDK whats this</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="imgs/befd4e1bae44939ad3a4a98a3be9b8e0.jpg" alt="first-slide" width="100%" height="400px">
+                <div class="carousel-caption">
+                    <h2>WooooW</h2>
+                    <p>IDK whats this</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel-id" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+        <a class="carousel-control-next" href="#carousel-id" data-bs-slide="next"><span class="carousel-control-next-icon"></span></a>
+    </div>
+    <!--card-->
+    <div class="container mt-5">
+        <div class="row  justify-content-center">
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">
+                                Package 1
+                            </div>
+                            <div class="card-body">
+                                <h2 class="card-title">Package 01</h2>
+                                <img src="imgs/also sahi.jfif" alt="card1" width="100%" height="300px">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, quis ratione. Sapiente iure laudantium eveniet inventore vero modi dolores magnam alias, totam non minus</p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between">
+                                <button type="button" class="btn btn-secondary btn-sm">Read More</button>
+                                <button type="button" class="btn btn-secondary btn-sm">Read Less</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">
+                                Package 1
+                            </div>
+                            <div class="card-body">
+                                <h2 class="card-title">Package 01</h2>
+                                <img src="imgs/also sahi.jfif" alt="card1" width="100%" height="300px">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, quis ratione. Sapiente iure laudantium eveniet inventore vero modi dolores magnam alias, totam non minus</p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between">
+                                <button type="button" class="btn btn-secondary btn-sm">Read More</button>
+                                <button type="button" class="btn btn-secondary btn-sm">Read Less</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body  p-0">
+                                <img class="card-img-top" src="imgs/also sahi.jfif" alt="card1" width="100%" height="300px">
+                                <div class="card-img-overlay">
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam qui perferendis vero nisi illum rem quisquam saepe? Laudantium illo, deleniti, velit veniam est atque excepturi eaque laborum quis debitis dolores!</p>
+                                </div>
+                             </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

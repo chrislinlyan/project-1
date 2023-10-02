@@ -1,0 +1,18 @@
+.nav-link {
+    color: rgb(13, 43, 33);
+    font-size: 20px;
+    font-family: cursive;
+}
+.carousel .carousel-caption {
+    background-color: rgba(213, 194, 215, 0.443);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+@media  screen and (max-width:992px) {
+    .carousel-inner .carousel-item imh {
+        height: 350px;
+    }
+}
+body    {
+    font-family: 'Pixelify Sans', cursive;
+}
